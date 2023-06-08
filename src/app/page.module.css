@@ -5,6 +5,9 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-image: url('/lokesh_standing_style_in_ceremony_chair.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .marginauto {
@@ -40,6 +43,10 @@
   gap: 0.5rem;
 }
 
+.paragraph {
+  font-size: 3rem;
+}
+
 .description p {
   position: relative;
   margin: 0;
@@ -52,6 +59,12 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
+}
+
+
+.textWrap {
+  text-overflow: ellipsis;
+  word-break: break-all;
 }
 
 .grid {
@@ -92,7 +105,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 3rem 0;
   text-align: center;
 }
 
@@ -133,11 +146,11 @@
 
 @keyframes rotateX {
   0% {
-    transform: scale(0.5)rotateY(0deg);
+    transform: scale(0.5) rotateY(0deg);
     opacity: 0;
   }
   100% {
-    transform: scale(1)rotateY(360deg);
+    transform: scale(1) rotateY(360deg);
     opacity: 1;
   }
 }
